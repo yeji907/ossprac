@@ -1,6 +1,6 @@
-version: '3.0'
+version : "3.0"
 
 services:
-  python-app:
-    image: ${DOCKER_USR}/ossp_week12
-    build: .
+  python-app: # 서비스명
+    image : ${DOCKER_USR}/ossp_week12
+    build : .
